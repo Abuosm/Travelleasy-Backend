@@ -8,7 +8,7 @@ const cors = require('cors');
 const path = require('path');
 const bodyParser = require('body-parser');
 const twilio = require('twilio');
-const { Canvas, Image } = require('canvas');
+const { Canvas, Image } = require('@napi-rs/canvas');
 const faceapi = require('face-api.js');
 const fs = require('fs');
 
